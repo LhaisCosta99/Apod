@@ -12,7 +12,7 @@ let pedido = (dateUsuario)=> {
 
             displayN.append(`
 
-                <h2>${tit}</h2>
+                <h1>${tit}</h1>
                 <img src = "${imagem}"
                 <p>${exp}</p>
                 `)
