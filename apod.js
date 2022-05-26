@@ -10,21 +10,19 @@ let pedido = (dateUsuario)=> {
             let tit = resposta.title
             let exp = resposta.explanation
 
-
             displayN.append(`
 
                 <h2>${tit}</h2>
                 <img src = "${imagem}"
                 <p>${exp}</p>
-                
-            
-            `)
-
+                `)
 
             let divDis = $("#displayNasa");
             divDis.css("display", "block");
-            
-    
-        }
+            }
     });
+    $("#formulario").submit((event)=>{
+    event.preventDefault()
+    let dateUsuario = elementDate.val()
+    pedido(dateUsuario)})
 }
