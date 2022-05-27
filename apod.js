@@ -9,7 +9,7 @@ let pedido = (dateUsuario)=> {
             let imagem = resposta.url
             let tit = resposta.title
             let exp = resposta.explanation
-            $('#imagem').attr('src', imagem).css('width','200px')
+            $('#imagem').attr('src', imagem)
             $('#titulo').text(tit)
             $('#desc').text(exp)
             }
