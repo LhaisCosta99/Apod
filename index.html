@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apod Nasa</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
     <link rel="stylesheet" href="./apod.css">
     <script src="./apod.js" defer></script>
 </head>
@@ -14,23 +14,26 @@
     <main>
         <form id="inicio">
             <h1 id="container">Pesquise uma data! </h1>
-            <let id="dataEbotao">
+            <div id="dataEbotao">
                 <input id="data" type="date" id="data">
                 <button id="btn">PESQUISAR</button>
-            </let>
-            
-            <let id="displayNasa">
             </div>
+            
         </form>
         
-        <footer>
+        <div id="displayNasa">   
+            <h1 id="titulo"></h1>
+            <img id="imagem" src=''>
+            <p id="desc"></p>
+        </div>
         
-            <p>Todos os direitos reservados</p>
-            <a href="https://github.com/LhaisCosta99"><p>Lhaís Costa 2022©</p></a>
-            
-        </footer>
-    
     </main>
     
+    <footer>
+    
+        <p>Todos os direitos reservados</p>
+        <a href="https://github.com/LhaisCosta99"><p>Lhaís Costa 2022©</p></a>
+        
+    </footer>
 </body>
 </html>
