@@ -9,9 +9,19 @@ let pedido = (dateUsuario)=> {
             let imagem = resposta.url
             let tit = resposta.title
             let exp = resposta.explanation
-            $('#imagem').attr('src', imagem)
             $('#titulo').text(tit)
             $('#desc').text(exp)
+            if(resposta.media_type=='image'){
+                $('#video').css('display', 'none')
+                $('#imagem').css('display', 'flex')
+                $('#imagem').attr('src', imagem)
+                
+            }else{
+                $('#imagem').css('display', 'none')
+                $('#video').css('display', 'flex')
+                $('#video').attr('src', imagem)
+
+            }
             }
     });
 }
