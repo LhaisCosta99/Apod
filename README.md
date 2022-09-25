@@ -10,8 +10,7 @@
 ## Sobre
 Esse projeto se trata de um site criado com JS, CSS e HTML que busca a imagem ou video da data desejada, foi fornecido uma chave diretamente da NASA para construção desse projeto.
 
-
-##:small_blue_diamond: Conheça o Site :small_blue_diamond:
+## :small_blue_diamond: Conheça o Site :small_blue_diamond:
 https://lhaiscosta99.github.io/Apod/
 
 ## 🤜 Quem criou? 🤛
